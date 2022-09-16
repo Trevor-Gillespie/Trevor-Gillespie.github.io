@@ -31,7 +31,7 @@ nav{
   background: inherit;
 }
 
-.navbar-brand, .nav-link{
+.nav-link{
   color: var(--light-cyan);
 }
 .main-content{

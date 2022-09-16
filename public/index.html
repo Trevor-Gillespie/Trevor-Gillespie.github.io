@@ -60,11 +60,11 @@
 
         <!-- Left stacked column for buttons to expand sections -->
         <div class="col-3" id="skill-buttons">
-          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#technical-skills" aria-expanded="false" aria-controls="technical-skills">
+          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#technical-skills" aria-expanded="false" aria-controls="technical-skills" id="tech-button">
             Technical
           </button>
 
-          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#soft-skills" aria-expanded="false" aria-controls="soft-skills">
+          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#soft-skills" aria-expanded="false" aria-controls="soft-skills" id="soft-button">
             Soft Skills
           </button>
         </div>
@@ -78,15 +78,16 @@
                 <li class="list-group-item">Javascript</li>
                 <li class="list-group-item">HTML</li>
                 <li class="list-group-item">CSS & Bootstrap</li>
+                <li class="list-group-item">Responsive Design</li>
               </ul>
             </div>
             <div class="col-xl-6 card card-body">
-              Back End
+              <strong>Back End</strong>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Javascript</li>
                 <li class="list-group-item">C#</li>
-                <li class="list-group-item">Node</li>
-                <li class="list-group-item">Express & React</li>
+                <li class="list-group-item">Node, Express & React</li>
+                <li class="list-group-item">SQL & MongoDB</li>
               </ul>
             </div>
           </div>
@@ -122,6 +123,7 @@
         </div>
       </div>
     </div>
+
 <!-- Contact container -->
     <div class="container pt-2" id="contact">
       <h1 class="text-center border-bottom border-opacity-10">Contact</h1>
@@ -136,12 +138,15 @@
         </div>
       </div>
       <div class="row text-center justify-content-center pt-4">
-        <form action="" class="col-xl-6" id="contact-form">
-          <div>
+
+        <!-- If you're technically savvy enough to be reading this then just know, I wanted to put a form here! But the HTML-only version seemed terrible and embedding a google or hubspot form looked fisher price. Working on it! -->
+
+        <!-- <form action="mailto:trevgillsp+contactform@gmail.com" method="post" enctype="multipart/form-data" class="col-xl-6" id="contact-form"> -->
+          <div class="col-xl-8">
             <p style="font-size: 20px">
-              Please reach out to me if you would like to discuss software developement opportunities, request a copy of my resume or if there is a project you would like to see added to my portfolio.
+              Please reach out to me on LinkedIn if you would like to discuss software development opportunities, request a copy of my resume or if there is a project you would like to see added to my portfolio.
             </p>
-          </div>
+          <!-- </div>
           <div class="">
             <label for="name" class="">Name</label>
             <input type="text" name="name" id="name" required>
@@ -153,11 +158,10 @@
           <div>
             <label for="comments" class="pt-2">Comments</label>
             <textarea name="comments" id="comments" cols="30" rows="4" placeholder=""></textarea>
-            <!-- <input type="text" id="comments"> -->
           </div>
-          <button id="send-button">Send</button>
+          <button id="send-button" type="submit" value="Submit">Send</button>
 
-        </form>
+        </form> -->
       </div>
     </div>
 
@@ -172,5 +176,6 @@
 
   <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
