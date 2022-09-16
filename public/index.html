@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Trevor Gillespie</title>
+</head>
+<body>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-md sticky-top">
+    <div class="container-fluid justify-content-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarBasic">
+        <ul class="navbar-nav mx-auto mb-2 mb-xl-0 fs-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Main content container -->
+  <div class="main-content container">
+<!-- Introduction container -->
+    <div class="container pt-3" id="intro">
+      <h1 class="text-center border-bottom border-opacity-10">Intro</h1>
+      <div class="row text-start">
+        <div class="col-xl-8 pt-3">
+          <p>Hello, my name is Trevor Gillespie. I am a junior fullstack software developer located in the Calgary area. Currently pivoting careers into the Tech Sector, my background is as an Oil and Gas professional of 10 years. <br><br>I have recently graduated from the EDGE UP 2.0 program and discovered an immediate infatuation with software developement. The more I learn, the more I realize how much more I have to discover and that excites me to no end.<br><br>I bring a positive, confident, and inclusive personality to any team. I enjoy creating a healthy work environment where respect and inclusion are prioritized. I am always seeking growth and consistently strive to deliver reliable, high-quality results. <br><br>If I'm not at my computer learning more about software developement, I'm most likely at the driving range, the curling rink or walking my dogs.</p>
+        </div> 
+        <div class="col-xl-4 text-center pt-3">
+          <img id="intro-pic" src="Images_Personal_Site/TheBois1.jpg">
+        </div>
+      </div>
+    </div>
+
+<!-- Skills container -->
+    <div class="container pt-4" id="skills">
+      <h1 class="text-center border-bottom border-opacity-10">Skills</h1>
+      <div class="row justify-content-around pt-1">
+
+        <!-- Left stacked column for buttons to expand sections -->
+        <div class="col-3" id="skill-buttons">
+          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#technical-skills" aria-expanded="false" aria-controls="technical-skills">
+            Technical
+          </button>
+
+          <button class="btn w-100 my-1" type="button" data-bs-toggle="collapse" data-bs-target="#soft-skills" aria-expanded="false" aria-controls="soft-skills">
+            Soft Skills
+          </button>
+        </div>
+
+        <!-- Right side info display next to the skill buttons -->
+        <div class="col-8">
+          <div class="collapse row pb-1" id="technical-skills">
+            <div class="col-xl-6 card card-body">
+              <strong>Front End</strong>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS & Bootstrap</li>
+              </ul>
+            </div>
+            <div class="col-xl-6 card card-body">
+              Back End
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">Node</li>
+                <li class="list-group-item">Express & React</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse row" id="soft-skills">
+            <div class="col-xl-6 card card-body">
+              <strong>Communication</strong>I believe in healthy communication within a team. Discussions about ideas and projects should be open and welcome.
+            </div>
+            <div class="col-xl-6 card card-body">
+              <strong>Adaptablity</strong>I thrive in positions where I can continue to learn and grow my skills. Working on unfamiliar or different tasks is exciting and a chance to master something new.
+            </div>
+            <div class="col-xl-6 card card-body">
+              <strong>Team Oriented</strong>Amazing things happen when people are building eachother up.
+            </div>
+            <div class="col-xl-6 card card-body">
+              <strong>Leadership</strong>With 3+ years of leadership experience in my previous career, I understand a good leader promotes growth and trusts the judgement of their team.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<!-- Projects container -->
+    <div class="container pt-0" id="projects">
+      <h1 class="text-center border-bottom border-opacity-10">Projects</h1>
+      <div class="row text-start">
+        <div class="col-xl-7 pt-5">
+          <h3><a id="hardknox-link" href="https://hardknoxbrewery.com/" target="_blank">Hardknox Brewery</a></h3>
+          <p>Working with local business to redesign their website. Changing/simplifying website layout and incorporating an events page. Redesign is heavily focused on allowing employees to easily edit pages as needed with upcoming events or beer releases. Currently in planning stages with business.</p> 
+        </div> 
+        <div class="col-xl-5 text-center">
+          <a href="https://hardknoxbrewery.com/" target="_blank"><img id="hardknox-pic" src="Images_Personal_Site/Screenshot (287).png" alt="" ></a>
+        </div>
+      </div>
+    </div>
+<!-- Contact container -->
+    <div class="container pt-2" id="contact">
+      <h1 class="text-center border-bottom border-opacity-10">Contact</h1>
+      <div class="row pt-5">
+        <div class="col-xl-6 text-center">
+          <a href="https://www.linkedin.com/in/trevor-gillespie/" target="_blank"><img class="contact-tile" src="Images_Personal_Site/linkedin.svg" alt=""></a>
+        </div>
+        <div class="col-xl-6 text-center position-relative">
+          <a href="" target="_blank" class="pe-none"><img class="contact-tile" src="Images_Personal_Site/github.svg" alt=""></a>
+          <div class="position-absolute" id="under-construction"><p style="color: rgb(231, 169, 12);">Under Construction</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center pt-4">
+        <form action="" class="col-xl-6" id="contact-form">
+          <div>
+            <p style="font-size: 20px">
+              Please reach out to me if you would like to discuss software developement opportunities, request a copy of my resume or if there is a project you would like to see added to my portfolio.
+            </p>
+          </div>
+          <div class="">
+            <label for="name" class="">Name</label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div>
+            <label for="email" class="pt-2">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div>
+            <label for="comments" class="pt-2">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="4" placeholder=""></textarea>
+            <!-- <input type="text" id="comments"> -->
+          </div>
+          <button id="send-button">Send</button>
+
+        </form>
+      </div>
+    </div>
+
+    <footer class="pt-3">
+      <div class="row border-top text text-center pt-4">
+        <h5 style="color: var(--granite-gray);">
+          © Trevor Gillespie
+        </h5>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

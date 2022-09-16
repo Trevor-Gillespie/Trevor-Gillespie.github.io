@@ -1,0 +1,107 @@
+/* CSS HEX */
+*{
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Poppins', helvetica, Arial, sans-serif;
+  color: var(--light-cyan);
+}
+:root {
+  --light-cyan: #ccf5feff;
+  --green-munsell: rgb(8, 143, 109);
+  --carolina-blue: #599ccdff;
+  --indigo-dye: #073c57ff;
+  --granite-gray: #5f6067ff;
+  --smoky-black: #12100dff;
+}
+html, body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(Images_Personal_Site/LakeLouise.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  background: inherit;
+}
+
+.navbar-brand, .nav-link{
+  color: var(--light-cyan);
+}
+.main-content{
+  background-color: rgba(18, 16, 13, 0.767);
+  min-width: 80%;
+  min-height: 100%;
+}
+.container h1{
+  color: var(--green-munsell);
+}
+.container p{
+  font-size: 18px;
+}
+#intro-pic{
+  max-width: 50%;
+}
+@media screen and (min-width: 1200px){
+  #intro-pic{
+    max-width: 100%;
+  }
+  .container p{
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+#skill-buttons{
+  height: 30vh;
+  width: fit-content;
+}
+
+#skills .btn{
+  color: #073c57ff;
+  background-color: #599ccdff;
+  height: 40%;
+}
+.card{
+  color:#ccf5feff;
+  background-color: rgba(18, 16, 13, 0.815);
+}
+li{
+  background-color: transparent !important;
+  color: #ccf5feff !important;
+}
+
+#hardknox-link {
+  color: rgb(172, 205, 248);
+}
+
+#hardknox-pic {
+  max-width: 70%;
+  border-radius: 30px;
+}
+
+.contact-tile{
+  max-width: 30%;
+}
+
+#under-construction{
+  top: 15%;
+  left: 50%;
+  transform: rotate(-45deg) translate(-50%, -50%);
+}
+
+input, textarea{
+  min-width: 100%;
+  background-color: rgba(7, 60, 87, 0.705);
+  color: var(--green-munsell);
+}
+
+#send-button{
+  background-color: rgba(7, 60, 87, 0.705);
+  border: none;
+}
