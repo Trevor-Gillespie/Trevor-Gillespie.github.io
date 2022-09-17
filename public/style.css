@@ -27,6 +27,9 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+.darkmode{
+  background-image: url(Images_Personal_Site/gray-mounain-bg.jpg);
+}
 nav{
   background: inherit;
 }
@@ -104,4 +107,22 @@ input, textarea{
 #send-button{
   background-color: rgba(7, 60, 87, 0.705);
   border: none;
+}
+
+.dark{
+  margin-left: 5px;
+  border: none;
+  border-radius: 25px;
+  padding: 0 10px;
+  background-color: black;
+  font-size: 24px;
+}
+
+.light{
+  margin-left: 5px;
+  border: none;
+  border-radius: 25px;
+  background-color: goldenrod;
+  color: black;
+  font-size: 24px;
 }
