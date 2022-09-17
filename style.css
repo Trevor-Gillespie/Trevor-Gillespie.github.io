@@ -92,11 +92,11 @@ li{
   max-width: 30%;
 }
 
-#under-construction{
+/* #under-construction{
   top: 15%;
   left: 50%;
   transform: rotate(-45deg) translate(-50%, -50%);
-}
+} */
 
 input, textarea{
   min-width: 100%;
